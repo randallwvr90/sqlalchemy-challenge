@@ -34,17 +34,17 @@ X Start by finding the most recent date in the data set.
 
 X Using this date, retrieve the last 12 months of precipitation data by querying the 12 preceding months of data. **Note** you do not pass in the date as a variable to your query.
 
-* Select only the `date` and `prcp` values.
+X Select only the `date` and `prcp` values.
 
-* Load the query results into a Pandas DataFrame and set the index to the date column.
+X Load the query results into a Pandas DataFrame and set the index to the date column.
 
-* Sort the DataFrame values by `date`.
+X Sort the DataFrame values by `date`.
 
 * Plot the results using the DataFrame `plot` method.
 
   ![precipitation](Images/precipitation.png)
 
-* Use Pandas to print the summary statistics for the precipitation data.
+X Use Pandas to print the summary statistics for the precipitation data.
 
 ### Station Analysis
 

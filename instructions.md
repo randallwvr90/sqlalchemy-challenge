@@ -32,7 +32,7 @@ X **Important** Don't forget to close out your session at the end of your notebo
 
 X Start by finding the most recent date in the data set.
 
-* Using this date, retrieve the last 12 months of precipitation data by querying the 12 preceding months of data. **Note** you do not pass in the date as a variable to your query.
+X Using this date, retrieve the last 12 months of precipitation data by querying the 12 preceding months of data. **Note** you do not pass in the date as a variable to your query.
 
 * Select only the `date` and `prcp` values.
 

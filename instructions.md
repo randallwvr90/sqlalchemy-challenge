@@ -40,7 +40,7 @@ X Load the query results into a Pandas DataFrame and set the index to the date c
 
 X Sort the DataFrame values by `date`.
 
-* Plot the results using the DataFrame `plot` method.
+X Plot the results using the DataFrame `plot` method.
 
   ![precipitation](Images/precipitation.png)
 
@@ -48,7 +48,7 @@ X Use Pandas to print the summary statistics for the precipitation data.
 
 ### Station Analysis
 
-* Design a query to calculate the total number of stations in the dataset.
+X Design a query to calculate the total number of stations in the dataset.
 
 * Design a query to find the most active stations (i.e. which stations have the most rows?).
 

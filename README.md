@@ -13,3 +13,5 @@ filepaths are relative to this directory (/sqlalchemy-challenge/)
 * hawaii.sqlite
 * hawaii_measurements.csv
 * hawaii_stations.csv
+
+## data is awesome

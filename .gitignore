@@ -1,7 +1,7 @@
 Instructions/
 .ipynb_checkpoints/
-*.swp
+**.swp
 
 # some mac stuff:
 .DS_Store
-*/.DS_Store
+**/.DS_Store

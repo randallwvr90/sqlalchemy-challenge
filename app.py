@@ -59,14 +59,10 @@ def precipitation():
     session.close()
 
     # Create dictionary, return jsonified version
-    precipList = []
+    precipDict = {}
     for dataPoint, date in precipData:
-        precipDict = {
-            'Date': date,
-            'Precipitation': dataPoint
-        }
-        precipList.append(precipDict)
-    return jsonify(precipList)
+        precipDict[date] = dataPoint
+    return jsonify(precipDict)
 
 ############### Route - Display all stationss ##################
 @app.route('/api/v1.0/stations')
